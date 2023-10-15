@@ -1,0 +1,9 @@
+server ->
+package-  type: module
+
+install npm i mongoose express dotenv jsonwebtoken bcrypt inside the server folder
+mongoose 
+express 
+dotenv 
+jsonwebtoken 
+bcrypt
