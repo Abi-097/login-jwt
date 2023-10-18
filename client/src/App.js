@@ -15,7 +15,7 @@ function App() {
       body: JSON.stringify({
         name,
         email,
-        password,
+        password, 
       })
     })
 
