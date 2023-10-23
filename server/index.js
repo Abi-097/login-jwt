@@ -5,10 +5,19 @@ import dotenv from 'dotenv'
 
 // const express = require('express')
 const app = express()
+app.use(express.json());
 
 
-app.get('/hello',(req, res)=>{
-res.send('hello world')
+app.post('/register', (req, res) =>{
+    res.json("register");
+})
+
+app.post('/login', (req, res) =>{
+    res.json("login");
+})
+
+app.get('/profile',(req, res)=>{
+    res.json("profile");
 })
 
 app.listen(5000, ()=>{
