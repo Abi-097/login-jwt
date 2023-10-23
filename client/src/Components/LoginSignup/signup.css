@@ -1,0 +1,21 @@
+.Signin{
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    display: flex;
+}
+
+.login_heading{
+    margin-top: 1%;
+    font-weight: 500;
+    font-size: 40px;
+    color: blueviolet;
+}
+
+.submit{
+color:rgb(163, 231, 248) !important
+}
+
+.submit_clicked{
+color: rgb(207, 179, 233) !important;
+}
